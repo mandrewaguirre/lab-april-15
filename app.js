@@ -3,15 +3,12 @@ function sum (x,y) {
   console.log('The sum of ' + x + ' ' + y + ' is ' + add);
   return add;
 }
-
-
+//Tatiana: looks super similar to mine!
 function mul (x,y) {
   var multiply = x * y;
   console.log('The product of ' + x + ' ' + y + ' is ' + multiply);
   return multiply;
 }
-
-
 
 function sumAddMultiply(x,y,z){
   var total = [mul(mul(x,y),z), sum(sum(x,y),z)];
@@ -19,8 +16,7 @@ function sumAddMultiply(x,y,z){
   console.log ( 'The numbers ' + x + ' and ' + y + ' and ' + z + ' have a product of ' + ' ' + total [1]);
   return total;
 }
-
-
+//Tatiana: Array for the sumAndMultiply() output looks great
 function summArray (b) {
   var sum = 0;
   for (i = 0; i < b.length; i++) {
@@ -30,3 +26,4 @@ function summArray (b) {
   console.table(b);
   return sum;
 }
+//Tatiana: Miguel, good job so far! Good luck with Problems 5 and 6!
