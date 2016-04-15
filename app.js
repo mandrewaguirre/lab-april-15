@@ -1,4 +1,4 @@
-function sum (x,y) {
-
-  console.log('The sum of ' + x + ' ' + y + ' is ' + ( x + y));
+function mul (x,y) {
+  var multiply = x * y;
+  console.log('The product of ' + x + ' ' + y + ' is ' + multiply);
 }
