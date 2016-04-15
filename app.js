@@ -11,4 +11,8 @@ function mul (x,y) {
 }
 
 
-var sumM = [mul () , sum (),];
+function sumAddMultiply(x,y,z){
+  var total = [mul(mul(x,y),z), sum(sum(x,y),z)];
+  console.log (x + ' and ' + y + ' and ' + z + ' sum to ' + ' ' + total [0]);
+  console.log ( 'The numbers ' + x + ' and ' + y + ' and ' + z + ' have a product of ' + ' ' + total [1]);
+}
